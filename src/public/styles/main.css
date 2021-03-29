@@ -1,7 +1,11 @@
 /*GLOBAL -----------------------------*/
 :root {
   --cor-primaria: #51d6be;
-  --cor-primaria-gradiente: linear-gradient(90deg, rgba(81, 214, 190, 0.5) 0%, #51D6BE 77.08%);
+  --cor-primaria-gradiente: linear-gradient(
+    90deg,
+    rgba(81, 214, 190, 0.5) 0%,
+    #51d6be 77.08%
+  );
   --cor-plano-de-fundo: #18181b;
   --sombra-plano-de-fundo: 0px 4px 10px 5px rgba(0, 0, 0, 0.32);
   --cor-titulo-plano-de-fundo: #ffffff;
@@ -33,6 +37,7 @@ main {
   color: var(--cor-titulo-plano-de-fundo);
   background: var(--cor-plano-de-fundo);
   box-shadow: 0px 4px 10px 5px rgba(0, 0, 0, 0.32);
+  padding-bottom: 72px;
 }
 
 /*CABEÇALHO -----------------------------*/
@@ -62,31 +67,31 @@ main header {
 }
 
 .grupo-botoes {
-    margin-top: 48px;
-    display:flex;
-    align-items: center;
-    justify-content: left;
-    font-size: 24px;
+  margin-top: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  font-size: 24px;
 }
 
 .curriculo {
-    border: 2px solid var(--cor-texto-botao-nao-preenchido);
-    border-radius: 7px;
-    display: flex;
-    align-items: center;
-    justify-content:center;
-    height: 64px;
-    width: 200px;
-    cursor: pointer;
+  border: 2px solid var(--cor-texto-botao-nao-preenchido);
+  border-radius: 7px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 64px;
+  width: 200px;
+  cursor: pointer;
 }
 
 .curriculo img {
-    margin-right: 15px;
+  margin-right: 15px;
 }
 
 .curriculo a {
-    text-decoration: none;
-    color: var(--cor-texto-botao-nao-preenchido);
+  text-decoration: none;
+  color: var(--cor-texto-botao-nao-preenchido);
 }
 
 #comecar {
@@ -95,32 +100,37 @@ main header {
   margin-left: 48px;
   background: var(--cor-primaria);
   height: 64px;
-    width: 200px;
-    border-radius: 7px;
-    display: flex;
-    align-items: center;
-    justify-content:center;
-
+  width: 200px;
+  border-radius: 7px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .imagem {
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content:center;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 #boas-vindas {
-    margin-top: 72px;
-    width: 80%;
-    height: 400px;
-    margin-right: 100px;
+  margin-top: 72px;
+  width: 80%;
+  height: 400px;
+  margin-right: 100px;
 }
 
 #decoracao {
-    position: absolute;
-    bottom: -48px;
-    right: 0;
+  position: absolute;
+  bottom: -48px;
+  right: 0;
+}
+
+#telefone {
+  width: 70%;
+  height: 400px;
+  margin-right: -188px;
 }
 
 /*CONTEÚDO PRINCIPAL DA PÁGINA ------------------*/
@@ -131,5 +141,25 @@ section {
 
 section h2 {
   font-size: 44px;
-  font-weight:300;
+  font-weight: 300;
+}
+
+.contatos {
+  border-radius: 7px;
+  border: 2px solid var(--cor-primaria);
+  text-align: center;
+  padding: 64px 80px;
+  margin-top: -136px;
+}
+
+.contatos p {
+  font-size: 24px;
+  color: var(--cor-texto-plano-de-fundo);
+  text-align:left;
+  line-height: 48px;
+}
+
+.contatos p a {
+  text-decoration: none;
+  color: var(--cor-texto-rodape);
 }

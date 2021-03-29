@@ -5,25 +5,31 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Família tipográfica: Titilium Web. Fonte: Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../public/styles/main.css">
+    <link rel="stylesheet" href="../public/styles/partials/card.css">
+    <link rel="stylesheet" href="../public/styles/partials/menu.css">
+    <link rel="stylesheet" href="../public/styles/partials/rodape.css">
     <title>Formação | Maria Gabriela Reis</title>
   </head>
   <body>
     <!-- Menu de Navegação -->
-    <header>
-      <p>Maria Gabriela Garcia dos Santos Reis</p>
+    <header id="menu">
+      <p><a href="./index.html">Maria Gabriela Garcia dos Santos Reis</a></p>
 
       <nav>
-        <a href="">Sobre mim</a>
-        <a href="">Formação</a>
+        <a href="./sobre-mim.html">Sobre mim</a>
+        <a href="./formacao.html">Formação</a>
         <a href="">Projetos</a>
-        <a href="">Contatos</a>
+        <a href="./contatos.html" id="botao-contato">Contatos</a>
       </nav>
     </header>
 
     <!-- Cabeçalho -->
     <main>
       <header>
-        <h1>Bem vindo(a) ao meu portfólio</h1>
+        <h1>Formação</h1>
         <p>Uma simples estudante de tecnologia com vício em aprender</p>
 
         <div class="curriculo">
@@ -80,31 +86,31 @@
                 de validação da ideia, do produto e do negócio. <br />
                 SET/2019 - NOV/2019
               </p>
-              <div class="card-botao">
+              <div class="card-pequno-botao">
                 <a href="">Visitar site</a>
               </div>
             </div>
 
-            <div class="card-medio">
+            <div class="card-pequeno">
               <h3>2º HACKATHON ACADÊMICO - CPS</h3>
               <p>
                 Centro Paula Souza, Robótica Paula Souza. Conquista do 8º lugar
                 na premiação da Fase Estadual. <br />
                 2º SEMESTRE DE 2019
               </p>
-              <div class="card-botao">
+              <div class="card-pequeno-botao">
                 <a href="">Visitar site</a>
               </div>
             </div>
 
-            <div class="card-medio">
+            <div class="card-pequeno">
               <h3>MANUTENÇÃO DE LABORATÓRIOS</h3>
               <p>
                 Voluntariado.Catálogo de máquinas, com a verificação do
                 funcionamento ou defeitos existentes. <br />
                 2º SEMESTRE DE 2019
               </p>
-              <div class="card-botao">
+              <div class="card-pequeno-botao">
                 <a href="">Visitar site</a>
               </div>
             </div>
@@ -117,7 +123,10 @@
     <footer>
       <address>
         <div class="email">
-          <h4>Maria Gabriela Garcia dos Santos Reis</h4>
+          <h4>
+            Maria Gabriela Garcia dos <br>
+            Santos Reis
+          </h4>
           <p>mariagabrielagreis@gmail.com</p>
         </div>
 
@@ -125,34 +134,34 @@
         <div class="links-uteis">
           <h5>Links Úteis</h5>
           <div class="links">
-            <a href="">Início</a>
-            <a href="">Sobre mim</a>
-            <a href="">Formação</a>
+            <a href="#">Início</a>
+            <a href="./sobre-mim.html">Sobre mim</a>
+            <a href="./formacao.html">Formação</a>
             <a href="">Projetos</a>
-            <a href="">Contatos</a>
-            <a href="">Baixar currículo</a>
+            <a href="./contatos.html">Contatos</a>
+            <a href="../public/curriculo.pdf" download="Maria-Gabrial-Reis-Curriculo.pdf">Baixar currículo</a>
           </div>
         </div>
 
         <!-- Redes Sociais -->
         <div class="redes-sociais">
           <a href="">
-            <img src="" alt="GitHub" />
+            <img src="../public/img/icon-github.png" alt="GitHub" />
             <p>GitHub</p>
           </a>
           <a href="">
-            <img src="" alt="LinkedIn" />
+            <img src="../public/img/icon-linkedin.png" alt="LinkedIn" />
             <p>LinkedIn</p>
           </a>
           <a href="">
-            <img src="" alt="Instagram" />
+            <img src="../public/img/icon-instagram.png" alt="Instagram" />
             <p>Instagram</p>
           </a>
         </div>
-        <div class="copyright">
-          <p>© 2021 copyright todos os direitos reservados</p>
-        </div>
       </address>
+      <div class="copyright">
+        <p>© 2021 copyright todos os direitos reservados</p>
+      </div>
     </footer>
   </body>
 </html>

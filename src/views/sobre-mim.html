@@ -5,32 +5,40 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Família tipográfica: Titilium Web. Fonte: Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../public/styles/main.css">
+    <link rel="stylesheet" href="../public/styles/partials/card.css">
+    <link rel="stylesheet" href="../public/styles/partials/menu.css">
+    <link rel="stylesheet" href="../public/styles/partials/rodape.css">
     <title>Sobre Mim | Maria Gabriela Reis</title>
   </head>
   <body>
     <!-- Menu de Navegação -->
-    <header>
-      <p>Maria Gabriela Garcia dos Santos Reis</p>
+    <header id="menu">
+      <p><a href="./index.html">Maria Gabriela Garcia dos Santos Reis</a></p>
 
       <nav>
-        <a href="">Sobre mim</a>
-        <a href="">Formação</a>
+        <a href="./sobre-mim.html">Sobre mim</a>
+        <a href="./formacao.html">Formação</a>
         <a href="">Projetos</a>
-        <a href="">Contatos</a>
+        <a href="./contatos.html" id="botao-contato">Contatos</a>
       </nav>
     </header>
 
     <main>
       <!-- Cabeçalho -->
       <header>
-        <h1>Sobre Mim</h1>
-        <p>
-          21 de julho de 2002 <br />
-          Solteira <br />
-          Amigável, inteligente... e um pouco fora da curva. <br />
-          São José dos Campos - São Paulo
-        </p>
-
+        <div class="descricao">
+          <h1>Sobre Mim</h1>
+          <p>
+            21 de julho de 2002 <br />
+            Solteira <br />
+            Amigável, inteligente... e um pouco fora da curva. <br />
+            São José dos Campos - São Paulo
+          </p>
+        </div>
+      
         <div class="imagem">
           <img src="" alt="Foto de Maria Gabriela Reis" />
         </div>
@@ -78,7 +86,10 @@
     <footer>
       <address>
         <div class="email">
-          <h4>Maria Gabriela Garcia dos Santos Reis</h4>
+          <h4>
+            Maria Gabriela Garcia dos <br>
+            Santos Reis
+          </h4>
           <p>mariagabrielagreis@gmail.com</p>
         </div>
 
@@ -86,34 +97,34 @@
         <div class="links-uteis">
           <h5>Links Úteis</h5>
           <div class="links">
-            <a href="">Início</a>
-            <a href="">Sobre mim</a>
-            <a href="">Formação</a>
+            <a href="#">Início</a>
+            <a href="./sobre-mim.html">Sobre mim</a>
+            <a href="./formacao.html">Formação</a>
             <a href="">Projetos</a>
-            <a href="">Contatos</a>
-            <a href="">Baixar currículo</a>
+            <a href="./contatos.html">Contatos</a>
+            <a href="../public/curriculo.pdf" download="Maria-Gabrial-Reis-Curriculo.pdf">Baixar currículo</a>
           </div>
         </div>
 
         <!-- Redes Sociais -->
         <div class="redes-sociais">
           <a href="">
-            <img src="" alt="GitHub" />
+            <img src="../public/img/icon-github.png" alt="GitHub" />
             <p>GitHub</p>
           </a>
           <a href="">
-            <img src="" alt="LinkedIn" />
+            <img src="../public/img/icon-linkedin.png" alt="LinkedIn" />
             <p>LinkedIn</p>
           </a>
           <a href="">
-            <img src="" alt="Instagram" />
+            <img src="../public/img/icon-instagram.png" alt="Instagram" />
             <p>Instagram</p>
           </a>
         </div>
-        <div class="copyright">
-          <p>© 2021 copyright todos os direitos reservados</p>
-        </div>
       </address>
+      <div class="copyright">
+        <p>© 2021 copyright todos os direitos reservados</p>
+      </div>
     </footer>
   </body>
 </html>

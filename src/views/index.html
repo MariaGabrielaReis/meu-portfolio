@@ -5,38 +5,46 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Família tipográfica: Titilium Web. Fonte: Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../public/styles/main.css">
     <title>Início | Maria Gabriela Reis</title>
   </head>
   <body>
     <!-- Menu de Navegação -->
-    <header>
-      <p>Maria Gabriela Garcia dos Santos Reis</p>
+    <header id="menu">
+      <p><a href="#">Maria Gabriela Garcia dos Santos Reis</a></p>
 
       <nav>
-        <a href="">Sobre mim</a>
-        <a href="">Formação</a>
+        <a href="./sobre-mim.html">Sobre mim</a>
+        <a href="./formacao.html">Formação</a>
         <a href="">Projetos</a>
-        <a href="">Contatos</a>
+        <a href="./contatos.html" id="botao-contato">Contatos</a>
       </nav>
     </header>
 
     <main>
       <!-- Cabeçalho -->
       <header>
-        <h1>Bem vindo(a) ao meu portfólio</h1>
-        <p>Uma simples estudante de tecnologia com vício em aprender</p>
-
-        <div class="grupo-botoes">
-          <div class="curriculo">
-            <img src="" alt="Baixar currículo" />
-            <a href="" download="Maria-Gabrial-Reis-Curriculo.pdf">Currículo</a>
+        <div class="descricao">
+          <h1>
+            Bem vindo(a) <br>
+            ao meu portfólio</h1>
+          <p>Uma simples estudante de tecnologia <br>
+             com vício em aprender</p>
+  
+          <div class="grupo-botoes">
+            <div class="curriculo">
+              <img src="../public/img/icone-seta.svg" alt="Baixar currículo" />
+              <a href="../public/curriculo.pdf" download="Maria-Gabrial-Reis-Curriculo.pdf">Currículo</a>
+            </div>
+            <a href="" id="comecar">Vamos começar?</a>
           </div>
-          <a href="">Vamos começar?</a>
         </div>
-
+       
         <div class="imagem">
-          <img src="" alt="Bem vindo(a)!" />
-          <img src="" alt="Decoração do site" />
+          <img id="boas-vindas" src="../public/img/exemplo-foto.png" alt="Bem vindo(a)!" />
+          <img id="decoracao" src="../public/img/decoracao-esfera.svg" alt="Decoração do site" />
         </div>
       </header>
 
@@ -106,27 +114,27 @@
         <div class="links-uteis">
           <h5>Links Úteis</h5>
           <div class="links">
-            <a href="">Início</a>
-            <a href="">Sobre mim</a>
-            <a href="">Formação</a>
+            <a href="#">Início</a>
+            <a href="./sobre-mim.html">Sobre mim</a>
+            <a href="./formacao.html">Formação</a>
             <a href="">Projetos</a>
-            <a href="">Contatos</a>
-            <a href="">Baixar currículo</a>
+            <a href="./contatos.html">Contatos</a>
+            <a href="../public/curriculo.pdf" download="Maria-Gabrial-Reis-Curriculo.pdf">Baixar currículo</a>
           </div>
         </div>
 
         <!-- Redes Sociais -->
         <div class="redes-sociais">
           <a href="">
-            <img src="" alt="GitHub" />
+            <img src="../public/img/icon-github.png" alt="GitHub" />
             <p>GitHub</p>
           </a>
           <a href="">
-            <img src="" alt="LinkedIn" />
+            <img src="../public/img/icon-linkedin.png" alt="LinkedIn" />
             <p>LinkedIn</p>
           </a>
           <a href="">
-            <img src="" alt="Instagram" />
+            <img src="../public/img/icon-instagram.png" alt="Instagram" />
             <p>Instagram</p>
           </a>
         </div>

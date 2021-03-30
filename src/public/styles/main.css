@@ -13,6 +13,7 @@
   --sombra-menu: 0px 4px 10px 0px rgba(0, 0, 0, 0.75);
   --cor-texto-botao-nao-preenchido: #23bba0;
   --cor-botao-hover: #23bba0;
+  --sombra-main: 0px 4px 10px 3px rgba(0, 0, 0, 0.5);
   --cor-titulo-rodape: #323232;
   --cor-texto-rodape: #ffffff;
 
@@ -36,8 +37,9 @@ main {
   width: 100%;
   color: var(--cor-titulo-plano-de-fundo);
   background: var(--cor-plano-de-fundo);
-  box-shadow: 0px 4px 10px 5px rgba(0, 0, 0, 0.32);
+  box-shadow: var(--sombra-main);
   padding-bottom: 72px;
+  position: relative;
 }
 
 /*CABEÇALHO -----------------------------*/

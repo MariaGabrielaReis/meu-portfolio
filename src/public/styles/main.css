@@ -94,6 +94,7 @@ main header {
 .curriculo a {
   text-decoration: none;
   color: var(--cor-texto-botao-nao-preenchido);
+  font-size: 24px;
 }
 
 #comecar {
@@ -127,6 +128,15 @@ main header {
   position: absolute;
   bottom: -48px;
   right: 0;
+}
+
+#observacao {
+  margin-left: 100px;
+}
+
+#formando {
+  width: 70%;
+  height: 400px;
 }
 
 #telefone {

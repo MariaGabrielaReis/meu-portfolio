@@ -141,6 +141,10 @@ section {
   margin: auto;
 }
 
+section + section {
+  margin-top: 48px;
+}
+
 section h2 {
   font-size: 44px;
   font-weight: 300;

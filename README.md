@@ -35,9 +35,9 @@ As seguintes ferramentas e linguagens foram usadas até agora na construção do
 
 <p align="center">
 
-<img src="https://img.shields.io/badge/Figma-7e35a0?style=for-the-badge&logo=Figma&logoColor=white" /><a href="http://www.figma.com"></a><img>
-<img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=whit" /><a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS"></a><img>
-<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" /><a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML"></a><img>
+<img src="https://img.shields.io/badge/Figma-7e35a0?style=for-the-badge&logo=Figma&logoColor=white" /><img>
+<img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=whit" /><img>
+<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" /><img>
 </p>
 
 → [Voltar ao topo](#topo)
@@ -48,7 +48,7 @@ As seguintes ferramentas e linguagens foram usadas até agora na construção do
 
 Abaixo é possível encontrar um link para uma demonstração do protótipo do projeto, além de uma requisição do professor para a primeira entrega parcial do trabalho: um vídeo com a explicação de 3 tags HTML e 3 regras CSS feitas por mim.
 
-Para visualizar a demonstração, [clique aqui]().
+Para visualizar a demonstração, [clique aqui](https://youtu.be/6lmZNZHK42k).
 
 → [Voltar ao topo](#topo)
 

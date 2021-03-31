@@ -63,7 +63,9 @@ Para visualizar a demonstração, [clique aqui]().
  <p> | - - - 📁 partials (Arquivos .css que padronizam elementos da interface que se repetem) </p>
  <p> | - - - :page_facing_up: main.css (Arquivo principal de estilização, aplicado a todas as telas) </p>
  <p> | - 📁 views (Arquivos .html que constituiem as estruturas das páginas)</p>
- <p> | -:page_facing_up: LICENCE (Arquivo da licença atrubuída ao projeto) </p>
+ <p> :page_facing_up: .gitignore (Apontamento de arquivos que devem ser ignorados pelo Git ao rastrear o repositório) </p>
+ <p> :page_facing_up: LICENCE (Arquivo da licença atrubuída ao projeto) </p>
+ <p> :page_facing_up: README (Arquivo que descreve o projeto) </p>
 
 → [Voltar ao topo](#topo)
 

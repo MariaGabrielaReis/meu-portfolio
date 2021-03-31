@@ -35,3 +35,12 @@ nav a {
 
   color: var(--cor-texto-botao-nao-preenchido);
 }
+
+nav #botao {
+  border: 2px solid var(--cor-texto-botao-nao-preenchido);
+  border-radius: 7px;
+  padding: 5px 32px;
+
+  background: var(--cor-texto-botao-nao-preenchido);
+  color: white;
+}

@@ -5,154 +5,162 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- Família tipográfica: Titilium Web. Fonte: Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../public/styles/main.css">
-    <link rel="stylesheet" href="../public/styles/partials/card.css">
-    <link rel="stylesheet" href="../public/styles/partials/menu.css">
-    <link rel="stylesheet" href="../public/styles/partials/rodape.css">
+    <!-- Família tipográfica: Bai Jamjuree. Fonte: Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../static/styles/main.css" />
+    <link rel="stylesheet" href="../static/styles/partials/card.css" />
+    <link rel="stylesheet" href="../static/styles/partials/menu.css" />
+    <link rel="stylesheet" href="../static/styles/partials/rodape.css" />
     <title>Início | Maria Gabriela Reis</title>
   </head>
+
   <body>
     <!-- Menu de Navegação -->
-    <header id="menu">
-      <p><a href="#">Maria Gabriela Garcia dos Santos Reis</a></p>
+    <header id="nav">
+      <a href="#">Maria Gabriela Garcia dos Santos Reis</a>
 
       <nav>
-        <a href="./sobre-mim.html">Sobre mim</a>
-        <a href="./formacao.html">Formação</a>
-        <a href="./projetos.html">Projetos</a>
-        <a href="./contatos.html" id="botao-contato">Contatos</a>
+        <a href="./about-me.html">Sobre mim</a>
+        <a href="./education.html">Formação</a>
+        <a href="./projects.html">Projetos</a>
       </nav>
     </header>
 
     <main>
       <!-- Cabeçalho -->
       <header>
-        <div class="descricao">
+        <div class="description">
           <h1>
-            Bem vindo(a) <br>
-            ao meu portfólio</h1>
-          <p>Uma simples estudante de tecnologia <br>
-             com vício em aprender</p>
-  
-          <div class="grupo-botoes">
-            <div class="curriculo">
-              <img src="../public/img/icone-seta.svg" alt="Baixar currículo" />
-              <a href="../public/curriculo.pdf" download="Maria-Gabrial-Reis-Curriculo.pdf">Currículo</a>
-            </div>
+            Bem vindo(a) <br />
+            ao meu portfólio
+          </h1>
+          <p>
+            Uma simples estudante de tecnologia <br />
+            com vício em aprender
+          </p>
+
+          <div class="button-group">
+            <!-- Botão para baixar o currículo -->
+            <a href="../static/cv.pdf" download="Maria-Gabriela-Reis-CV.pdf">
+              <img src="../static/img/icon-arrow.svg" alt="Baixar currículo" />
+              Currículo
+            </a>
+            <!-- Botão para iniciar o passeio pelo site -->
             <a href="" id="comecar">Vamos começar?</a>
           </div>
         </div>
-       
-        <div class="imagem">
-          <img id="boas-vindas" src="../public/img/exemplo-foto.png" alt="Bem vindo(a)!" />
-          <img id="decoracao" src="../public/img/decoracao-esfera.svg" alt="Decoração do site" />
+
+        <div class="description-image">
+          <p>
+            Olá! Meu nome é Maria Gabriela, desenvolvedora front-end, mas também
+            tenho experiências acadêmicas com back-end e análise de dados!
+          </p>
+
+          <img
+            id="illustration"
+            src="../static/img/exemplo-foto.png"
+            alt="Bem vindo(a)!"
+          />
+
+          <img
+            id="decoration-circle"
+            src="../static/img/decoration-circle.svg"
+            alt=""
+          />
         </div>
       </header>
 
       <!-- Opções de navegação para outras páginas, com descrição de conteúdo -->
-      <div class="paginas">
-        <section>
-          <h2>O que você pode encontrar nese site?</h2>
-          <div class="cards-pequenos">
-            <!-- Opção para tela com informações sobre mim -->
-            <div class="card-pequeno">
-              <h3>SOBRE MIM</h3>
-              <p>
-                Informações pessoais <br />
-                Meus hobbies
-              </p>
-              <div class="card-pequeno-botao">
-                <a href="">Dar uma olhada</a>
-              </div>
-            </div>
-  
-            <!-- Opção para tela com informações sobre as escolas que já estudei -->
-            <div class="card-pequeno">
-              <h3>FORMAÇÃO</h3>
-              <p>
-                Instituições de Ensino frequentadas <br />
-                Outros cursos e participações <br />
-                Download de currículo <br />
-              </p>
-              <div class="card-pequeno-botao">
-                <a href="">Ver mais</a>
-              </div>
-            </div>
-  
-            <!-- Opção para tela com projetos que já fiz -->
-            <div class="card-pequeno">
-              <h3>PROJETOS</h3>
-              <p>
-                Projetos atuais <br />
-                Projetos de eventos de programação <br />
-              </p>
-              <div class="card-pequeno-botao">
-                <a href="">Fuçar um pouco</a>
-              </div>
-            </div>
-  
-            <!-- Opção para tela com meus contatos -->
-            <div class="card-pequeno">
-              <h3>CONTATOS</h3>
-              <p>
-                Email <br />
-                GitHub <br />
-                LinkedIn <br />
-                Instagram <br />
-              </p>
-              <div class="card-pequeno-botao">
-                <a href="">Olhar opções</a>
-              </div>
+      <div class="pages">
+        <h2>O que você pode encontrar nesse site?</h2>
+        <p>
+          Este site é dividido em algumas seções, cada uma com um tema
+          diferente, desde informações pessoais até projetos que eu construí em
+          eventos de programação ou durante minha vida acadêmica. Clique em um
+          dos cards para ver mais.
+        </p>
+
+        <div class="card-small-group">
+          <!-- Opção para tela com informações sobre mim -->
+          <div class="card-small">
+            <h3>SOBRE MIM</h3>
+            <ul>
+              <li>Informações pessoais</li>
+              <li>Linguagens de Programação e Frameworks que conheço</li>
+              <li>Hobbies</li>
+            </ul>
+
+            <div class="card-small-button">
+              <a href="./about-me.html">Dar uma olhada</a>
             </div>
           </div>
-        </section>
+
+          <!-- Opção para tela com informações sobre as escolas que já estudei -->
+          <div class="card-small">
+            <h3>FORMAÇÃO</h3>
+            <ul>
+              <li>Instituições de Ensino que frequentei</li>
+              <li>Participações e voluntariado</li>
+              <li>Meu currículo disponível para download</li>
+            </ul>
+
+            <div class="card-small-button">
+              <a href="./education.html">Ver mais</a>
+            </div>
+          </div>
+
+          <!-- Opção para tela com projetos que já fiz -->
+          <div class="card-small">
+            <h3>PROJETOS</h3>
+            <ul>
+              <li>
+                Projetos pessoais e desenvolvidos durante participações de
+                eventos de tecnologia
+              </li>
+            </ul>
+
+            <div class="card-small-button">
+              <a href="./projects.html">Fuçar um pouco</a>
+            </div>
+          </div>
+        </div>
       </div>
     </main>
 
     <!-- Rodapé -->
     <footer>
       <address>
-        <div class="email">
-          <h4>
-            Maria Gabriela Garcia dos <br>
-            Santos Reis
-          </h4>
-          <p>mariagabrielagreis@gmail.com</p>
-        </div>
-
-        <!-- Links rápidos para outras páginas -->
-        <div class="links-uteis">
-          <h5>Links Úteis</h5>
-          <div class="links">
-            <a href="#">Início</a>
-            <a href="./sobre-mim.html">Sobre mim</a>
-            <a href="./formacao.html">Formação</a>
-            <a href="./projetos.html">Projetos</a>
-            <a href="./contatos.html">Contatos</a>
-            <a href="../public/curriculo.pdf" download="Maria-Gabrial-Reis-Curriculo.pdf">Baixar currículo</a>
-          </div>
-        </div>
+        <!-- Nome -->
+        <h4>Maria Gabriela Garcia dos Santos Reis</h4>
 
         <!-- Redes Sociais -->
         <div class="redes-sociais">
           <a href="https://github.com/MariaGabrielaReis" target="_blank">
-            <img src="../public/img/icon-github.png" alt="GitHub" />
-            <p>GitHub</p>
+            GitHub
           </a>
-          <a href="https://www.linkedin.com/in/mariagabrielareis/" target="_blank">
-            <img src="../public/img/icon-linkedin.png" alt="LinkedIn" />
-            <p>LinkedIn</p>
+          <a
+            href="https://www.linkedin.com/in/mariagabrielareis/"
+            target="_blank"
+          >
+            Linkedin
+          </a>
+          <a href="https://codepen.io/mariagabrielareis" target="_blank">
+            Codepen
           </a>
           <a href="https://www.instagram.com/maby.sz/?hl=pt-br" target="_blank">
-            <img src="../public/img/icon-instagram.png" alt="Instagram" />
-            <p>Instagram</p>
+            Instagram
           </a>
         </div>
+
+        <!-- Email -->
+        <p>mariagabrielagreis@gmail.com</p>
       </address>
-      <div class="copyright">
-        <p>© 2021 copyright todos os direitos reservados</p>
+      <div id="copyright">
+        <p>© 2021 | Todos os direitos reservados</p>
       </div>
     </footer>
   </body>

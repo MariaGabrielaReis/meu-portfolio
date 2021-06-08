@@ -1,0 +1,46 @@
+/*RODAPE -----------------------------*/
+footer {
+  bottom: 0;
+  width: 100%;
+  background: var(--color-primary);
+  font-weight: 300;
+  margin: auto;
+  padding-top: 20px;
+}
+
+address {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  line-height: 24px;
+  justify-content: space-between;
+  font-size: 16px;
+}
+
+address h4 {
+  width: 428.84px;
+  font-size: 24px;
+  line-height: 110%;
+  font-weight: 300;
+}
+
+.social {
+  width: 320.97px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.social a {
+  text-decoration: none;
+  font-size: 16px;
+  color: var(--color-background);
+  line-height: 120%;
+}
+
+#copyright {
+  width: 90%;
+  margin: auto;
+  display: block;
+  padding-top: 5px;
+}

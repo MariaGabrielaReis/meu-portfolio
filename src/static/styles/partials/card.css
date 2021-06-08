@@ -1,66 +1,57 @@
 /*CARD PEQUENO -----------------------------------*/
-.cards-pequenos {
+.card-small-group {
   display: flex;
   align-items: center;
-  justify-content: center;
-  padding: 80px 0 10px;
+  justify-content: space-between;
 }
 
-.card-pequeno {
-  height: 323px;
-  width: 270px;
+.card-small {
+  width: 369.97px;
+  height: 221.22px;
   border-radius: 7px;
-  border: 2px solid var(--cor-primaria);
-  text-align: center;
+  border: 2px solid var(--color-primary);
   padding: 16px;
+  padding-bottom: 0px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  margin-right: 2%;
+  margin-top: 80px;
 }
 
-.card-pequeno-evento {
-  height: 400px;
-  width: 300px;
-  border-radius: 7px;
-  border: 2px solid var(--cor-primaria);
-  text-align: center;
-  padding: 16px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  margin-right: 5%;
-}
-
-
-.card-pequeno h3, .card-pequeno-evento h3 {
-  font-size: 24px;
-  font-weight: 400;
-  line-height: 26px;
-  letter-spacing: 0em;
-  padding-top: 10px;
-}
-
-.card-pequeno p, .card-pequeno-evento p {
-  font-size: 20px;
+.card-small h3 {
+  height: 44px;
   font-weight: 300;
-  line-height: 29px;
-  text-align: left;
-  color: var(--cor-texto-plano-de-fundo);
-  padding: 20px;
+  font-size: 22px;
+  line-height: 110%;
+  text-align: center;
+  padding-top: 5px;
 }
 
-.card-pequeno-botao {
-  border-top: 2px solid var(--cor-primaria);
-  bottom: 0;
+.card-small ul {
+  width: 313.24px;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 120%;
+  font-weight: 300;
+  text-align: left;
+  color: var(--color-background-text);
+  padding: 0px 30px 15px;
+}
+
+.card-small-button {
+  border-top: 2px solid var(--color-primary);
+  padding-top: 5px;
+  height: 48px;
+  text-align: center;
   padding-top: 10px;
 }
 
-.card-pequeno a, .card-pequeno-evento a {
+.card-small a {
   text-decoration: none;
-  font-size: 24px;
-  color: var(--cor-texto-botao-nao-preenchido);
+  color: var(--color-primary);
   margin-top: 16px;
+  font-size: 20px;
+  line-height: 120%;
 }
 /*CARD MÉDIO -----------------------------------*/
 .cards-medios {
@@ -131,7 +122,8 @@
   height: 60%;
 }
 
-#img2, #img3 {
+#img2,
+#img3 {
   width: 49%;
   height: 35%;
   margin-top: 1%;

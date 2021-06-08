@@ -1,23 +1,21 @@
 /*GLOBAL -----------------------------*/
 :root {
-  --cor-primaria: #23bba0;
-  --cor-primaria-gradiente: linear-gradient(
+  --color-primary: #23bba0;
+  --color-primary-gradient: linear-gradient(
     90deg,
     rgba(81, 214, 190, 0.5) 0%,
     #51d6be 77.08%
   );
-  --cor-plano-de-fundo: #18181b;
-  --sombra-plano-de-fundo: 0px 4px 10px 5px rgba(0, 0, 0, 0.32);
-  --cor-titulo-plano-de-fundo: #ffffff;
-  --cor-texto-plano-de-fundo: #bcbcbc;
-  --sombra-menu: 0px 4px 10px 0px rgba(0, 0, 0, 0.75);
-  --cor-texto-botao-nao-preenchido: #23bba0;
-  --cor-botao-hover: #23bba0;
-  --sombra-main: 0px 4px 10px 3px rgba(0, 0, 0, 0.5);
-  --cor-titulo-rodape: #323232;
-  --cor-texto-rodape: #ffffff;
+  --color-primary-text: #323232;
 
-  --tipografia: "Titillium Web", sans-serif;
+  --color-background: #18181b;
+  --color-background-shadow: 0px 4px 10px 5px rgba(0, 0, 0, 0.32);
+  --color-background-title: #ffffff;
+  --color-background-text: #868a8f;
+  --color-navigation-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.75);
+  --color-main-shadow: 0px 4px 10px 3px rgba(0, 0, 0, 0.5);
+
+  --typography: "Bai Jamjuree", sans-serif;
 }
 
 * {
@@ -29,125 +27,105 @@
 
 /*DEFINIÇÕES DO BODY E DO MAIN -----------------------------*/
 body {
-  background: var(--color-plano-de-fundo);
-  font-family: var(--tipografia);
+  background: var(--color-background);
+  font-family: var(--typography);
 }
 
 main {
   width: 100%;
-  color: var(--cor-titulo-plano-de-fundo);
-  background: var(--cor-plano-de-fundo);
-  box-shadow: var(--sombra-main);
+  color: var(--color-background-title);
+  background: var(--color-background);
+  box-shadow: var(--color-main-shadow);
   padding-bottom: 72px;
   position: relative;
 }
 
 /*CABEÇALHO -----------------------------*/
 main header {
-  width: 100%;
-  height: 700px;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  padding: 20px 72px;
-  align-content: center;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 150px;
+  margin: auto;
+  margin-bottom: 100px;
 }
 
-.descricao h1 {
+h1 {
   font-size: 64px;
   font-weight: 400;
-  line-height: 64px;
+  line-height: 99.5%;
   text-align: left;
   margin-top: 80px;
+  width: 487.95px;
+  height: 128px;
 }
 
-.descricao p {
-  font-size: 24px;
-  font-weight: 300;
-  line-height: 29px;
+.description p,
+.description-image p {
+  font-size: 20px;
+  line-height: 120%;
   text-align: left;
   margin-top: 32px;
+  color: var(--color-background-text);
+  width: 447.08px;
 }
 
-.grupo-botoes {
+.button-group {
   margin-top: 48px;
   display: flex;
   align-items: center;
   justify-content: left;
-  font-size: 24px;
+  font-size: 20px;
+  line-height: 120%;
 }
 
-.curriculo, .github-botao {
-  border: 2px solid var(--cor-texto-botao-nao-preenchido);
+.button-non-filled {
+  border: 2px solid var(--color-primary);
   border-radius: 7px;
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 64px;
   width: 200px;
+  height: 52px;
   cursor: pointer;
 }
 
-.curriculo img {
+.button-non-filled img {
   margin-right: 15px;
 }
 
-.curriculo a, .github-botao a {
+.button-non-filled {
   text-decoration: none;
-  color: var(--cor-texto-botao-nao-preenchido);
-  font-size: 24px;
+  color: var(--color-primary);
 }
 
-#comecar {
+#start {
   text-decoration: none;
-  color: var(--cor-titulo-plano-de-fundo);
-  margin-left: 48px;
-  background: var(--cor-primaria);
-  height: 64px;
+  color: var(--color-background-);
+  margin-left: 34px;
+  background: var(--color-primary);
   width: 200px;
+  height: 52px;
   border-radius: 7px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.imagem {
+.description-image {
   position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
-#boas-vindas {
-  margin-top: 72px;
-  width: 80%;
-  height: 400px;
-  margin-right: 100px;
+#illustration {
+  margin-top: 30px;
+  margin-right: 65px;
 }
 
-#decoracao {
+#decoration-circle {
   position: absolute;
   bottom: -48px;
   right: 0;
-}
-
-#observacao {
-  margin-left: 100px;
-}
-
-#formando {
-  width: 70%;
-  height: 400px;
-}
-
-#projetos {
-  width: 70%;
-  height: 350px;
-}
-
-#telefone {
-  width: 70%;
-  height: 400px;
-  margin-right: -188px;
 }
 
 /*CONTEÚDO PRINCIPAL DA PÁGINA ------------------*/
@@ -160,27 +138,24 @@ section + section {
   margin-top: 48px;
 }
 
-section h2 {
-  font-size: 44px;
+h2 {
+  font-size: 32px;
   font-weight: 300;
+  line-height: 110%;
+  margin-top: 48px;
 }
 
-.contatos {
-  border-radius: 7px;
-  border: 2px solid var(--cor-primaria);
-  text-align: center;
-  padding: 64px 80px;
-  margin-top: -136px;
+#pages {
+  width: 90%;
+  margin: auto;
 }
 
-.contatos p {
-  font-size: 24px;
-  color: var(--cor-texto-plano-de-fundo);
-  text-align:left;
-  line-height: 48px;
-}
-
-.contatos p a {
-  text-decoration: none;
-  color: var(--cor-texto-rodape);
+#pages p {
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 120%;
+  text-align: left;
+  margin-top: 30px;
+  padding-left: 70px;
+  color: var(--color-background-text);
 }

@@ -13,8 +13,8 @@
     />
     <link rel="stylesheet" href="../static/styles/main.css" />
     <link rel="stylesheet" href="../static/styles/partials/card.css" />
-    <link rel="stylesheet" href="../static/styles/partials/menu.css" />
-    <link rel="stylesheet" href="../static/styles/partials/rodape.css" />
+    <link rel="stylesheet" href="../static/styles/partials/navigation.css" />
+    <link rel="stylesheet" href="../static/styles/partials/footer.css" />
     <title>Início | Maria Gabriela Reis</title>
   </head>
 
@@ -45,12 +45,16 @@
 
           <div class="button-group">
             <!-- Botão para baixar o currículo -->
-            <a href="../static/cv.pdf" download="Maria-Gabriela-Reis-CV.pdf">
+            <a
+              class="button-non-filled"
+              href="../static/cv.pdf"
+              download="Maria-Gabriela-Reis-CV.pdf"
+            >
               <img src="../static/img/icon-arrow.svg" alt="Baixar currículo" />
               Currículo
             </a>
             <!-- Botão para iniciar o passeio pelo site -->
-            <a href="" id="comecar">Vamos começar?</a>
+            <a href="#pages" id="start">Vamos começar?</a>
           </div>
         </div>
 
@@ -62,7 +66,7 @@
 
           <img
             id="illustration"
-            src="../static/img/exemplo-foto.png"
+            src="../static/img/exemple-photo.svg"
             alt="Bem vindo(a)!"
           />
 
@@ -75,7 +79,7 @@
       </header>
 
       <!-- Opções de navegação para outras páginas, com descrição de conteúdo -->
-      <div class="pages">
+      <div id="pages">
         <h2>O que você pode encontrar nesse site?</h2>
         <p>
           Este site é dividido em algumas seções, cada uma com um tema
@@ -138,7 +142,7 @@
         <h4>Maria Gabriela Garcia dos Santos Reis</h4>
 
         <!-- Redes Sociais -->
-        <div class="redes-sociais">
+        <div class="social">
           <a href="https://github.com/MariaGabrielaReis" target="_blank">
             GitHub
           </a>

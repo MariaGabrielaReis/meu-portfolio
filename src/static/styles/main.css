@@ -89,20 +89,22 @@ h1 {
   width: 200px;
   height: 52px;
   cursor: pointer;
+  text-decoration: none;
+  color: var(--color-primary);
 }
 
 .button-non-filled img {
   margin-right: 15px;
 }
 
-.button-non-filled {
-  text-decoration: none;
-  color: var(--color-primary);
+.button-non-filled.non-main {
+  margin-top: 0px;
+  font-size: 20px;
 }
 
 #start {
   text-decoration: none;
-  color: var(--color-background-);
+  color: var(--color-background-title);
   margin-left: 34px;
   background: var(--color-primary);
   width: 200px;
@@ -137,6 +139,20 @@ h1 {
 .img-circle {
   margin-right: 50px;
 }
+
+#cv {
+  margin-left: 70px;
+  margin-top: -70px;
+}
+
+#ps {
+  margin-top: 10px;
+  margin-left: 125px;
+  color: var(--color-background-title);
+  font-weight: 300;
+  height: 10px;
+}
+
 /*CONTEÚDO PRINCIPAL DA PÁGINA ------------------*/
 section {
   width: 90%;

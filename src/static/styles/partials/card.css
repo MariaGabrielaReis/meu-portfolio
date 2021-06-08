@@ -104,40 +104,54 @@
 }
 
 /*CARD GRANDE -----------------------------------*/
-.card-grande {
+.card-big {
   border-radius: 7px;
-  border: 2px solid var(--cor-primaria);
+  border: 2px solid var(--color-primary);
   text-align: left;
-  margin: 32px 80px 0;
+  margin: 32px auto;
+  width: 970px;
+  height: 430.51px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.conteudo-card-grande {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  padding: 32px;
+.card-big-content {
+  padding: 20px 0px;
 }
 
-#img1 {
-  width: 100%;
-  height: 60%;
+.second {
+  width: 430px;
+  height: 375.19px;
 }
 
-#img2,
-#img3 {
-  width: 49%;
-  height: 35%;
-  margin-top: 1%;
-}
-
-#img3 {
-  margin-left: 1%;
-}
-
-.conteudo-card-grande img {
-  width: 90%;
-  height: 100%;
-}
-
-.card-grande p {
+.card-big ul {
   font-size: 20px;
+  font-weight: 300;
+  line-height: 120%;
+  text-align: left;
+  padding-left: 60px;
+  color: var(--color-background-text);
+}
+
+.languages-group {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  row-gap: 7px;
+}
+
+.hobbies-group {
+  gap: 13px;
+}
+
+.games {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 12px;
+}
+
+.games img {
+  width: 220px;
+  height: 158px;
 }

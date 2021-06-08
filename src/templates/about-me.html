@@ -14,8 +14,8 @@
     />
     <link rel="stylesheet" href="../static/styles/main.css" />
     <link rel="stylesheet" href="../static/styles/partials/card.css" />
-    <link rel="stylesheet" href="../static/styles/partials/menu.css" />
-    <link rel="stylesheet" href="../static/styles/partials/rodape.css" />
+    <link rel="stylesheet" href="../static/styles/partials/navigation.css" />
+    <link rel="stylesheet" href="../static/styles/partials/footer.css" />
     <title>Sobre mim | Maria Gabriela Reis</title>
   </head>
   <body>
@@ -33,7 +33,7 @@
     <main>
       <!-- Cabeçalho -->
       <header>
-        <div class="description">
+        <div class="description non-main">
           <h1>Sobre Mim</h1>
           <p>
             Nasci em julho de 2002, mas só em 2018, aos 16 anos, me interessei
@@ -41,14 +41,15 @@
             repetição e estruturas de decisão. Claro que antes disso eu já
             gostava de navegar em sites bonitos e jogar jogos divertidos, mas só
             no meu curso técnico que percebi tudo o que eu podia fazer só com um
-            computador e muita paciência. Aliás, sou de São José dos Campos, São
-            Paulo, muito prazer!
+            computador e muita paciência. <br />
+            Aliás, sou de São José dos Campos, São Paulo, muito prazer!
           </p>
         </div>
 
-        <div class="description-image">
+        <div class="description-image non-main">
           <img
-            src="../static/img/exemple-photo.png"
+            class="img-circle"
+            src="../static/img/exemple-photo-circle.svg"
             alt="Foto de Maria Gabriela Reis"
           />
 
@@ -73,13 +74,20 @@
                   programação, já tive contato com algumas linguagens, conceitos
                   e bibliotecas, como:
                 </li>
-                <li>PHP</li>
-                <li>Java</li>
-                <li>C/ C#</li>
-                <li>Javascript/ Typescript</li>
-                <li>Node, React, React Native</li>
-                <li>Pyhton</li>
-                <li>Flask, Beautiful Soup, Pandas</li>
+                <ul>
+                  <li>PHP</li>
+                  <li>Java</li>
+                  <li>C/ C#</li>
+                  <li>Javascript/ Typescript</li>
+                  <ul>
+                    <li>Node, React, React Native</li>
+                  </ul>
+                  <li>Pyhton</li>
+                  <ul>
+                    <li>Flask, Beautiful Soup, Pandas</li>
+                  </ul>
+                </ul>
+
                 <li>
                   Além, é claro, das clássicas linguagens de marcação e
                   estilização, HTML e CSS
@@ -88,18 +96,21 @@
             </div>
 
             <div id="languages-group">
-              <img src="../static/img/icon-python.png" alt="Logo: Python" />
-              <img src="../static/img/icon-js.png" alt="Logo: JavaScript" />
-              <img src="../static/img/icon-c.png" alt="Logo: C" />
-              <img src="../static/img/icon-flask.png" alt="Logo: Flask" />
-              <img src="../static/img/icon-node.png" alt="Logo: Node.js" />
-              <img src="../static/img/icon-c-sharp.png" alt="Logo: C#" />
-              <img src="../static/img/icon-php.png" alt="Logo: PHP" />
+              <img src="../static/img/icon-python.svg" alt="Logo: Python" />
+              <img src="../static/img/icon-js.svg" alt="Logo: JavaScript" />
+              <img src="../static/img/icon-c.svg" alt="Logo: C" />
+              <img src="../static/img/icon-flask.svg" alt="Logo: Flask" />
+              <img src="../static/img/icon-node.svg" alt="Logo: Node.js" />
+              <img src="../static/img/icon-c-sharp.svg" alt="Logo: C#" />
+              <img src="../static/img/icon-php.svg" alt="Logo: PHP" />
               <img
-                src="../static/img/icon-react-native.png"
+                src="../static/img/icon-react-native.svg"
                 alt="Logo: React Native"
               />
-              <img src="../static/img/html-css.png" alt="Logo: Html e CSS" />
+              <img
+                src="../static/img/icon-html-css.svg"
+                alt="Logo: Html e CSS"
+              />
             </div>
           </div>
         </section>
@@ -108,21 +119,24 @@
           <!-- Coisas que faço no meu tempo livre -->
           <h2>Hobbies</h2>
           <div class="card-big">
-            <div class="card-big-content">
+            <div class="card-big-content second">
               <ul>
                 <li>
                   Gosto de assistir filmes e séries, como “O Jogo da Imitação” e
                   “Sillicon Valley”
                 </li>
+                <br />
                 <li>
                   Praticar esportes, desde vôlei e futebol, à ping pong e artes
                   marciais sempre foi um momento de lazer para mim
                 </li>
+                <br />
                 <li>
                   Jogar jogos eletrônicos, sozinha ou com amigos, como Stardew
                   Valley, ou jogos de tabuleiro, como Damas e Banco Imobiliário,
                   e ainda jogos de console, como Mário ou Just Dance
                 </li>
+                <br />
                 <li>
                   Adoro escrever e desenhar nos meus tempos livres de inspiração
                   também
@@ -133,15 +147,21 @@
             <div id="hobbies-group">
               <img
                 id="img1"
-                src="../static/img/sillicon-valley.png"
+                src="../static/img/sillicon-valley.svg"
                 alt="Série: Sillicon Valley"
               />
-              <img id="img2" src="../static/img/mario.png" alt="Jogo: Mário" />
-              <img
-                id="img1"
-                src="../static/img/stardew.png"
-                alt="Jogo: Stardew Valley"
-              />
+              <div class="games">
+                <img
+                  id="img2"
+                  src="../static/img/mario.svg"
+                  alt="Jogo: Mário"
+                />
+                <img
+                  id="img1"
+                  src="../static/img/stardew.svg"
+                  alt="Jogo: Stardew Valley"
+                />
+              </div>
             </div>
           </div>
         </section>

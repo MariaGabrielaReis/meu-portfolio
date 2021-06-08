@@ -1,0 +1,118 @@
+/*CABEÇALHO -----------------------------*/
+main header {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 150px;
+  margin: auto;
+  margin-bottom: 100px;
+}
+
+h1 {
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 99.5%;
+  text-align: left;
+  margin-top: 80px;
+  width: 487.95px;
+  height: 128px;
+}
+
+.description p,
+.description-image p {
+  font-size: 20px;
+  line-height: 120%;
+  text-align: left;
+  margin-top: 32px;
+  color: var(--color-background-text);
+  width: 447.08px;
+}
+
+.button-group {
+  margin-top: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  font-size: 20px;
+  line-height: 120%;
+}
+
+.button-non-filled {
+  border: 2px solid var(--color-primary);
+  border-radius: 7px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 52px;
+  cursor: pointer;
+  text-decoration: none;
+  color: var(--color-primary);
+}
+
+.button-non-filled img {
+  margin-right: 15px;
+}
+
+.button-non-filled.non-main {
+  margin-top: 0px;
+  font-size: 20px;
+}
+
+#start {
+  text-decoration: none;
+  color: var(--color-background-title);
+  margin-left: 34px;
+  background: var(--color-primary);
+  width: 200px;
+  height: 52px;
+  border-radius: 7px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.description-image {
+  position: relative;
+}
+
+#illustration {
+  margin-top: 30px;
+  margin-right: 65px;
+}
+
+#decoration-circle {
+  position: absolute;
+  bottom: -48px;
+  right: 0;
+}
+
+.description.non-main p {
+  width: 632px;
+  height: 196px;
+  margin: 0px 0px 0px 68px;
+}
+
+.img-circle {
+  margin-right: 50px;
+}
+
+#cv,
+.github {
+  margin-left: 70px;
+  margin-top: -70px;
+}
+
+#ps {
+  margin-top: 10px;
+  margin-left: 125px;
+  color: var(--color-background-title);
+  font-weight: 300;
+  height: 10px;
+}
+
+.github:hover {
+  color: var(--color-background-title);
+  background: var(--color-primary);
+}

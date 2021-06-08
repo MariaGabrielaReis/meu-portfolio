@@ -13,8 +13,8 @@
     />
     <link rel="stylesheet" href="../static/styles/main.css" />
     <link rel="stylesheet" href="../static/styles/partials/card.css" />
-    <link rel="stylesheet" href="../static/styles/partials/menu.css" />
-    <link rel="stylesheet" href="../static/styles/partials/rodape.css" />
+    <link rel="stylesheet" href="../static/styles/partials/navigation.css" />
+    <link rel="stylesheet" href="../static/styles/partials/footer.css" />
     <title>Projetos | Maria Gabriela Reis</title>
   </head>
 
@@ -33,7 +33,7 @@
     <!-- Cabeçalho -->
     <main>
       <header>
-        <div class="descricao">
+        <div class="description non-main">
           <h1>Projetos</h1>
           <p>
             Durante minha vida acadêmica criei pequenos projetos para aplicar os
@@ -44,12 +44,16 @@
           </p>
 
           <!-- Botão para acessar GitHub -->
-          <a href="https://github.com/MariaGabrielaReis" target="_blank">
+          <a
+            class="button-non-filled non-main github"
+            href="https://github.com/MariaGabrielaReis"
+            target="_blank"
+          >
             Acessar GitHub
           </a>
         </div>
 
-        <div class="description-image">
+        <div class="description-image non-main">
           <img
             src="../static/img/icon-projects.svg"
             alt="Ícone de páginas de sites"
@@ -114,110 +118,113 @@
         <section>
           <!-- Projetos desenvolvidos em algum evento de programação -->
           <h2>Eventos de Programação</h2>
-          <div class="card-small-group">
-            <div class="card-small">
-              <h3>NEXT LEVEL WEEK #05</h3>
-              <p>
-                Plant Manager<br />
-                Aplicativo de lembretes que gera notificações para avisar quando
-                regar suas plantinhas (trilha React Native)
-              </p>
-              <div class="card-small-button">
-                <a
-                  href="https://github.com/MariaGabrielaReis/nlw-05-plant-manager"
-                  target="_blank"
-                >
-                  Ver repositório
-                </a>
+          <div class="card-small-list">
+            <div class="card-small-group">
+              <div class="card-small">
+                <h3>NEXT LEVEL WEEK #05</h3>
+                <p>
+                  Plant Manager<br />
+                  Aplicativo de lembretes que gera notificações para avisar
+                  quando regar suas plantinhas (trilha React Native)
+                </p>
+                <div class="card-small-button">
+                  <a
+                    href="https://github.com/MariaGabrielaReis/nlw-05-plant-manager"
+                    target="_blank"
+                  >
+                    Ver repositório
+                  </a>
+                </div>
+              </div>
+
+              <div class="card-small">
+                <h3>NEXT LEVEL WEEK #05</h3>
+                <p>
+                  Chat de Suporte<br />
+                  Chat de mensagens instantâneas para suporte a algum
+                  produto/serviço (trilha Node.js)
+                </p>
+                <div class="card-small-button">
+                  <a
+                    href="https://github.com/MariaGabrielaReis/nlw-05-support-chat"
+                    target="_blank"
+                  >
+                    Ver repositório
+                  </a>
+                </div>
+              </div>
+
+              <div class="card-small">
+                <h3>IMERSÕES E PALESTRAS</h3>
+                <p>
+                  Imersão Dev (Javascript)<br />
+                  Imersão Dados (Python)<br />
+                  Samsung Ocean: Web Scraping e Visualização de dados (Python)
+                </p>
+                <div class="card-small-button">
+                  <a
+                    href="https://github.com/MariaGabrielaReis/imersao-dados-3"
+                    target="_blank"
+                  >
+                    Ver repositório
+                  </a>
+                </div>
               </div>
             </div>
 
-            <div class="card-small">
-              <h3>NEXT LEVEL WEEK #05</h3>
-              <p>
-                Chat de Suporte<br />
-                Chat de mensagens instantâneas para suporte a algum
-                produto/serviço (trilha Node.js)
-              </p>
-              <div class="card-small-button">
-                <a
-                  href="https://github.com/MariaGabrielaReis/nlw-05-support-chat"
-                  target="_blank"
-                >
-                  Ver repositório
-                </a>
+            <div class="card-small-group">
+              <div class="card-small">
+                <h3>MARATONA DISCOVER 2</h3>
+                <p>
+                  Jobs-Calc<br />
+                  Calculadora para Freelancers: saiba quanto cobrar pelos seus
+                  trabalhos
+                </p>
+                <div class="card-small-button">
+                  <a
+                    href="https://github.com/MariaGabrielaReis/maratona-discover-jobs-calc"
+                  >
+                    Ver repositório
+                  </a>
+                </div>
               </div>
-            </div>
 
-            <div class="card-small">
-              <h3>IMERSÕES E PALESTRAS</h3>
-              <p>
-                Imersão Dev (Javascript)<br />
-                Imersão Dados (Python)<br />
-                Samsung Ocean: Web Scraping e Visualização de dados (Python)
-              </p>
-              <div class="card-small-button">
-                <a
-                  href="https://github.com/MariaGabrielaReis/imersao-dados-3"
-                  target="_blank"
-                >
-                  Ver repositório
-                </a>
+              <div class="card-small">
+                <h3>MARATONA DISCOVER 1</h3>
+                <p>
+                  Dev.finances<br />
+                  Aplicação de controle financeiro, onde é possível cadastrar e
+                  excluir transações e ver o saldo de entrada e saída.
+                </p>
+                <div class="card-small-button">
+                  <a
+                    href="https://github.com/MariaGabrielaReis/maratona-discover-dev-finances"
+                    target="_blank"
+                  >
+                    Ver repositório
+                  </a>
+                </div>
               </div>
-            </div>
 
-            <div class="card-small">
-              <h3>MARATONA DISCOVER 2</h3>
-              <p>
-                Jobs-Calc<br />
-                Calculadora para Freelancers: saiba quanto cobrar pelos seus
-                trabalhos
-              </p>
-              <div class="card-small-button">
-                <a
-                  href="https://github.com/MariaGabrielaReis/maratona-discover-jobs-calc"
-                >
-                  Ver repositório
-                </a>
-              </div>
-            </div>
-
-            <div class="card-small">
-              <h3>MARATONA DISCOVER 1</h3>
-              <p>
-                Dev.finances<br />
-                Aplicação de controle financeiro, onde é possível cadastrar e
-                excluir transações e ver o saldo de entrada e saída.
-              </p>
-              <div class="card-small-button">
-                <a
-                  href="https://github.com/MariaGabrielaReis/maratona-discover-dev-finances"
-                  target="_blank"
-                >
-                  Ver repositório
-                </a>
-              </div>
-            </div>
-
-            <div class="card-small">
-              <h3>NEXT LEVEL WEEK #04</h3>
-              <p>
-                Net Promoter Score<br />
-                API que calcula o grau de satisfação dos participantes da NLW#04
-                a partir de uma pesquisa enviada por e-mail
-              </p>
-              <div class="card-small-button">
-                <a
-                  href="https://github.com/MariaGabrielaReis/nlw-04-net-promoter-score"
-                  target="_blank"
-                >
-                  Ver repositório
-                </a>
+              <div class="card-small">
+                <h3>NEXT LEVEL WEEK #04</h3>
+                <p>
+                  Net Promoter Score<br />
+                  API que calcula o grau de satisfação dos participantes da
+                  NLW#04 a partir de uma pesquisa enviada por e-mail
+                </p>
+                <div class="card-small-button">
+                  <a
+                    href="https://github.com/MariaGabrielaReis/nlw-04-net-promoter-score"
+                    target="_blank"
+                  >
+                    Ver repositório
+                  </a>
+                </div>
               </div>
             </div>
           </div>
-
-          <div class="cards-pequenos">
+          <div class="card-small-group">
             <div class="card-small">
               <h3>NEXT LEVEL WEEK #03</h3>
               <p>
@@ -278,7 +285,7 @@
         <h4>Maria Gabriela Garcia dos Santos Reis</h4>
 
         <!-- Redes Sociais -->
-        <div class="redes-sociais">
+        <div class="social">
           <a href="https://github.com/MariaGabrielaReis" target="_blank">
             GitHub
           </a>

@@ -140,7 +140,8 @@ h1 {
   margin-right: 50px;
 }
 
-#cv {
+#cv,
+.github {
   margin-left: 70px;
   margin-top: -70px;
 }
@@ -151,6 +152,11 @@ h1 {
   color: var(--color-background-title);
   font-weight: 300;
   height: 10px;
+}
+
+.github:hover {
+  color: var(--color-background-title);
+  background: var(--color-primary);
 }
 
 /*CONTEÚDO PRINCIPAL DA PÁGINA ------------------*/

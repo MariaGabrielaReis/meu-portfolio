@@ -94,7 +94,7 @@ h1 {
   margin: 0px 0px 0px 68px;
 }
 
-.img-circle {
+#img-circle {
   width: 350px;
   height: 350px;
   margin-right: 50px;
@@ -209,16 +209,16 @@ h1 {
     width: 100px;
     height: 100px;
     margin: 0;
-    top: -245px;
+    top: -280px;
     right: 0;
   }
 
-  .img-circle {
+  #img-circle {
     position: absolute;
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
     margin: 0;
-    top: -230px;
+    top: -240px;
     right: 0;
   }
 

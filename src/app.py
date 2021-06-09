@@ -19,15 +19,21 @@ def about():
 
 
 @app.route('/education')
-def regions():
+def education():
     # página sobre minha formação acadêmica
     return render_template('education.html')
 
 
 @app.route('/projects')
-def project():
+def projects():
     # página sobre os projetos que já desenvolvi
     return render_template('projects.html')
+
+
+@app.route('/navigation')
+def navigation():
+    # menu de navegação para dispositivos móveis
+    return render_template('navigation.html')
 
 
 if __name__ == "__main__":

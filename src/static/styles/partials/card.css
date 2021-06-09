@@ -170,35 +170,54 @@
     margin: 0px;
   }
 
-  .card-small {
+  .card-small,
+  .card-medium {
     width: 300px;
-    height: 185px;
+    height: 200px;
     margin-top: 20px;
     margin-right: 0px;
   }
 
-  .card-small h3 {
+  .card-small h3,
+  .card-medium h3 {
     font-size: 16px;
     line-height: 110%;
     padding-top: 0px;
   }
 
   .card-small ul,
-  .card-small p {
+  .card-small p,
+  .card-medium p {
     font-size: 14px;
     line-height: 130%;
     width: 255px;
   }
 
-  .card-small-button {
+  .card-small-button,
+  .card-medium-button {
     height: 40px;
     padding-bottom: 10px;
   }
 
-  .card-small a {
+  .card-small a,
+  .card-medium a {
     font-size: 17px;
   }
 
+  /*CARD MÉDIO -----------------------------------*/
+  .card-medium-group {
+    display: block;
+    width: 100%;
+    margin: 0px;
+  }
+
+  .card-medium {
+    width: 300px;
+    height: 170px;
+    margin-top: 20px;
+  }
+
+  /*CARD GRANDE -----------------------------------*/
   #languages-group,
   #hobbies-group {
     display: none;

@@ -1,6 +1,6 @@
 /*GLOBAL -----------------------------*/
 :root {
-  --color-primary: #23bba0;
+  --color-primary: #51d6be;
   --color-primary-gradient: linear-gradient(
     90deg,
     rgba(81, 214, 190, 0.5) 0%,
@@ -70,4 +70,24 @@ h2 {
   margin-top: 30px;
   padding-left: 70px;
   color: var(--color-background-text);
+}
+
+/*RESPONSIVIDADE --------------------------------*/
+
+@media (max-width: 500px) {
+  main {
+    width: 100%;
+    border-radius: 0px 0px 30px 30px;
+    padding-bottom: 48px;
+  }
+
+  h2 {
+    font-size: 17px;
+    line-height: 110%;
+    margin-top: 32px;
+  }
+
+  #pages p {
+    display: none;
+  }
 }

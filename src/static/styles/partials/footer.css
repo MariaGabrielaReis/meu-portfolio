@@ -44,3 +44,32 @@ address h4 {
   display: block;
   padding-top: 5px;
 }
+
+/*RESPONSIVIDADE --------------------------------*/
+
+@media (max-width: 500px) {
+  body {
+    background: var(--color-primary);
+  }
+
+  address {
+    font-size: 10px;
+  }
+
+  address h4 {
+    width: 166px;
+    height: 41px;
+    font-size: 16px;
+    line-height: 110%;
+  }
+
+  .social {
+    display: none;
+  }
+
+  #copyright {
+    font-size: 9px;
+    padding-bottom: 10px;
+    text-align: center;
+  }
+}

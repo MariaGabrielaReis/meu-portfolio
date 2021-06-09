@@ -62,7 +62,7 @@ h1 {
 
 #start {
   text-decoration: none;
-  color: var(--color-background-title);
+  color: var(--color-background);
   margin-left: 34px;
   background: var(--color-primary);
   width: 200px;
@@ -115,4 +115,66 @@ h1 {
 .github:hover {
   color: var(--color-background-title);
   background: var(--color-primary);
+}
+
+/*RESPONSIVIDADE --------------------------------*/
+
+@media (max-width: 500px) {
+  main header {
+    display: block;
+    padding-top: 80px;
+    margin-bottom: 0px;
+  }
+
+  h1 {
+    font-size: 32px;
+    line-height: 100%;
+    width: 306.16px;
+    height: 80px;
+    margin-top: 0px;
+  }
+
+  .description p,
+  .description-image p {
+    font-size: 14px;
+    width: 345px;
+    height: 71.32px;
+    line-height: 120%;
+  }
+
+  .description p {
+    height: 45px;
+    margin-top: 0px;
+  }
+
+  .button-group {
+    margin-top: 10px;
+    font-size: 14px;
+  }
+
+  .button-non-filled,
+  #start {
+    width: 120px;
+    height: 32px;
+    font-size: 14px;
+  }
+
+  #start {
+    margin-left: 14px;
+  }
+
+  .button-non-filled img {
+    width: 15px;
+    height: 15px;
+  }
+
+  #illustration {
+    display: none;
+  }
+
+  #decoration-circle {
+    position: absolute;
+    right: -100px;
+    top: -200px;
+  }
 }

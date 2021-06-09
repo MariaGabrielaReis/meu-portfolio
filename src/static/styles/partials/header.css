@@ -172,9 +172,35 @@ h1 {
     display: none;
   }
 
-  #decoration-circle {
+  .description.non-main p {
+    width: 344px;
+    height: 160px;
+    margin: 0px;
+  }
+
+  .description-image.non-main {
+    display: flex;
+    padding: auto;
+  }
+
+  .img-circle {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    margin: 0;
+    top: -230px;
+    right: 0;
+  }
+
+  .decoration-circle {
     position: absolute;
     right: -100px;
     top: -200px;
+  }
+
+  #about-me-decoration {
+    position: absolute;
+    right: -80px;
+    top: 660px;
   }
 }

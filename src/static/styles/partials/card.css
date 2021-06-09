@@ -138,14 +138,14 @@
   color: var(--color-background-text);
 }
 
-.languages-group {
+#languages-group {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
   row-gap: 7px;
 }
 
-.hobbies-group {
+#hobbies-group {
   gap: 13px;
 }
 
@@ -197,5 +197,27 @@
 
   .card-small a {
     font-size: 17px;
+  }
+
+  #languages-group,
+  #hobbies-group {
+    display: none;
+  }
+
+  .card-big {
+    width: 301px;
+    height: 400px;
+    margin-bottom: 0;
+  }
+
+  .card-big-content {
+    width: 250px;
+    padding: 5px 0px;
+  }
+
+  .card-big ul {
+    font-size: 14px;
+    line-height: 130%;
+    padding-left: 40px;
   }
 }

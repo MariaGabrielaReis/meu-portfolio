@@ -67,7 +67,7 @@ Abaixo é possível encontrar um link para uma demonstração do protótipo do p
 
 Já através do link abaixo é possível observar a responsividade atribuída ao projeto, bem como o novo layout para alguns elementos.
 
-> Para visualizar o vídeo, [clique aqui]().
+> Para visualizar o vídeo, [clique aqui](https://youtu.be/qYB39cuHkyM).
 
 → [Voltar ao topo](#topo)
 

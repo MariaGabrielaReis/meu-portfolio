@@ -5,11 +5,11 @@
 </h1>
 
 <div align="center">
-	<a href="#sobre">Sobre</a> |
-	<a href="#rodar">Executando a aplicação</a> |
-	<a href="#prototipo">Protótipo</a> | 
-	<a href="#org">Organização do Repositório</a> |
-	<a href="#licenca">Licença</a> 
+	<a href="#sobre">Sobre</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+	<a href="#rodar">Executando a aplicação</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+	<a href="#prototipo">Protótipo</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+	<a href="#org">Organização do Repositório</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+	<a href="#licenca">Licença</a>
 </div>
 
 <span id="sobre">
@@ -43,7 +43,7 @@ As seguintes ferramentas e linguagens foram usadas até agora na construção do
 Depois de baixar o [Python](https://www.python.org/downloads/) e clonar o repositório (ou baixá-lo):
 
 ```powershell
-# Acesse a pasta do principal por meio do terminal
+# Acesse a pasta principal por meio do terminal
  cd src
 
 # Instale as dependências
@@ -60,14 +60,13 @@ Depois de baixar o [Python](https://www.python.org/downloads/) e clonar o reposi
 <span id="prototipo">
 
 ## :desktop_computer: Protótipo
+Abaixo é possível encontrar um link para uma demonstração do projeto para a entrega final, ou seja, aplicado responsividade e novo layout para alguns elementos.
 
-Abaixo é possível encontrar um link para uma demonstração do protótipo do projeto, além de uma requisição do professor para a primeira entrega parcial do trabalho: um vídeo com a explicação de 3 tags HTML e 3 regras CSS feitas por mim.
+> Para visualizar o vídeo da última entrega, [clique aqui](https://youtu.be/qYB39cuHkyM).
+	
+Já através do próximo link, pode-se encontrar a apresentação para a primeira entrega parcial do trabalho: a explicação de 3 tags HTML e 3 regras CSS feitas por mim.
 
-> Para visualizar a demonstração, [clique aqui](https://youtu.be/6lmZNZHK42k).
-
-Já através do link abaixo é possível observar a responsividade atribuída ao projeto, bem como o novo layout para alguns elementos.
-
-> Para visualizar o vídeo, [clique aqui](https://youtu.be/qYB39cuHkyM).
+> Para visualizar a demonstração do protótipo, [clique aqui](https://youtu.be/6lmZNZHK42k).
 
 → [Voltar ao topo](#topo)
 
